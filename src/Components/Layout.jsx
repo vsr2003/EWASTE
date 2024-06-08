@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
   return (
     <div className='w-screen  bg-slate-200'>
       <Navbar />
-      <div className={`mt-[12vh]  `}>
+      <div className={` mt-[10vh]  `}>
         {children}
       </div>
     </div>

@@ -14,10 +14,10 @@ const Home = () => {
     const words = ['Environment','EcoGreen','Sustainability']
     
   return (
-    <div className="w-screen min-h-screen mt-[13vh]">
+    <div className="w-screen min-h-screen sm:mt-[13vh]">
 
     {/* hero section */}
-    <section className="w-full py-5">
+    <section className="w-full py-2 sm:py-5">
 
         <div className="items-center justify-between max-w-screen-xl mx-auto overflow-hidden text-gray-600 gap-x-12 md:flex md:px-8">
             

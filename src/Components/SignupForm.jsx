@@ -82,6 +82,8 @@ const SignupForm = () => {
                 className="bg-[#6092ff] text-white font-bold py-2 px-4 w-full rounded hover:bg-[#4042E2]">Signup</button>
             </div>
 
+            <p className="hidden sm:block text-sm">Operator or Admin ? <button onClick={()=>navigator("/choose-account")} className="underline text-sm ">Click Here</button> </p>
+
         </form>
         
     </div>

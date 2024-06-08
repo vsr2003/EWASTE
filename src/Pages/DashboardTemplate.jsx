@@ -142,11 +142,11 @@ const DashboardTemplate = () => {
     },[])
  
   return (
-    <div className=" h-[87vh] ">
+    <div className=" h-[87vh] bg-red-600 ">
         
         <div className="flex h-full">
             
-            <aside id="sidebar" class="fixed border-r border-gray-00  z-20 h-full top-0 left-0 pt-16 flex lg:flex flex-shrink-0 flex-col w-64 transition-width duration-75" aria-label="Sidebar">
+            <aside id="sidebar" class=" hidden fixed border-r border-gray-00  z-20 h-full top-0 left-0 pt-16 sm:flex lg:flex flex-shrink-0 flex-col w-64 transition-width duration-75" aria-label="Sidebar">
                 <div class="relative flex-1 flex flex-col min-h-0 border-r border-gray-200 bg-white pt-0">
                     <div class="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
                     <div class="flex-1 px-3 bg-white divide-y space-y-1">
@@ -178,7 +178,7 @@ const DashboardTemplate = () => {
                 </div>
             </aside>
 
-            <div className=" w-[calc(100%-230px)] ml-64 h-full bg-slate-50">
+            <div className=" w-full sm:w-[calc(100%-230px)] sm:ml-64 h-full bg-slate-50">
                 <Outlet/>
             </div>
 

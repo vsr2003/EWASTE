@@ -45,6 +45,7 @@ import AdminMessages from './Pages/AdminMessages'
 import User from './Authorization/User.authorization'
 import popImg from './assets/email-received-icon.png'
 import { getAllEducationalPopup } from './services/Operations/educationalPopup.op'
+import ChooseAccountType from './Pages/ChooseAccountType'
 
 const App = () => {
 
@@ -67,7 +68,7 @@ const App = () => {
 
   return (
 
-    <div className=' relative w-screen bg-slate-200'>
+    <div className=' relative w-screen bg-[#E2E8F0]'>
 
       <Layout>
 
@@ -81,6 +82,7 @@ const App = () => {
           <Route path='/operator' element={<OperatorAuthPage />} />
           <Route path='/about' element={<AboutUs />} />
 
+          <Route path='/choose-account' element={<ChooseAccountType/>} />
 
 
           <Route path='/dispose' element={
